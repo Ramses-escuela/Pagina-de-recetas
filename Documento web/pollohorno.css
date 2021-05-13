@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'open sans';
+}
+.contenedor{
+	padding: 60px 0;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.titulo {
+	color: #b3711c;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+header{
+	width: 100%;
+	height: 700px;
+	background: #12c2e9;  
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+	/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(356, 90%, 64%, 0.5), hsla(280, 78%, 69%, 0.5), hsla(191, 86%, 49%, 0.5)), url(../Documento\ web/portada.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+nav > a{
+	color:#fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+}
+nav > a:hover{
+	text-decoration: underline;
+	
+}
+
+.ola{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.contenido-texto{
+	margin-right: 10px;
+}
+.contenido-texto {
+	width: 48%;
+}
+.contenido-texto h3 {
+	margin-bottom: 15px;
+}
+.contenido-texto h3 span{
+	background: #4BC1C9;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 135px;
+	margin-top: 15px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-right: 5px;
+}
+.contenido-texto p{
+	padding: 0px 0px 30px 15px;
+	font-weight: 300;
+	text-align: justify;
+}
